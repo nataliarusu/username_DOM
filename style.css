@@ -1,0 +1,18 @@
+input:focus {
+  background: #f1f3f1;
+  border-style: groove;
+}
+#helper {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+#rules {
+  display: flex;
+  flex-direction: column;
+}
+.error {
+  color: red;
+}
+.inVisible {
+  display: none;
+}

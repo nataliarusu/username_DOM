@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="./script.js" defer></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </head>
+  <body>
+    <form id='codename'>
+      <label for='str-length'>User name<label>
+      <input id='str-length' type="string"/>
+      <button type="submit">Check</button>
+    </form>
+    <div id='helper'>
+      <p>The user name should</p>
+      <form id='rules'>
+        <label for='length'> <input type="checkbox" id='length'>be at least 6 characters long</label>
+        <label for='lower'> <input type="checkbox" id='lower'>has at least one lower case</label>
+        <label for='upper'> <input type="checkbox" id='upper'>has at least one upper case</label>
+        <label for='numb'> <input type="checkbox" id='numb'>has at least two numbers</label>
+      </form>  
+      
+    </div>
+    <p class='helper--info inVisible'></p>
+    
+  </body>
+</html>
